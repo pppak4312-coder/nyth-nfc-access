@@ -1,3 +1,5 @@
+export const config = { runtime: "nodejs" };
+
 import jwt from "jsonwebtoken";
 import { createClient } from "@supabase/supabase-js";
 
